@@ -1,0 +1,614 @@
+body
+{
+	font-family: "微軟正黑體";
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #880000;
+}
+header
+{
+	background-color: rgba(255, 227, 194,0.8);
+	background-size: contain;
+	border-radius: 18px;
+	position: fixed;
+	top: 0.2cm;
+	width: 99%;
+}
+li
+{
+	display: inline;
+	font-size: 30px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-decoration: none;
+}
+nav
+{
+	text-align: center;
+    position:fixed;
+	left: -0.65cm;
+    top: -0.3cm;
+    width: 100%;
+    color: #880000;
+}
+a
+{
+	text-decoration:none;
+	color: #880000;
+}
+a.link:hover
+{
+	text-decoration: underline;
+}
+.gina
+{
+	display: block;
+	margin: auto;
+	width: 4cm;
+}
+.dog
+{
+	display: inline;
+	height: 1.8cm;
+	position: relative;
+	top: 0.1cm;
+}
+.heading
+{
+	position: absolute;
+	z-index: 999;
+}
+.title:hover
+{
+	background-color: white;
+	border-radius: 40px;
+}
+.me
+{
+	position: relative;
+	top: 1.5cm;
+	width: 800px;
+	display: block;
+	margin: auto;
+}
+.me:hover
+{
+	opacity: 0.9;
+}
+.me:hover div
+{
+	animation-play-state: paused;
+}
+.me div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: round 12s linear infinite;
+}
+@keyframes round
+{
+    6.225%
+    {
+        opacity: 1;
+    }
+    33.2%
+    {
+        opacity: 1;
+    }
+    39.425%
+    {
+        opacity: 0;
+    }
+}
+.me div:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.me div:nth-child(2)
+{
+    animation-delay: 4s;
+}
+.me div:nth-child(3)
+{
+    animation-delay: 8s;
+}
+h2
+{
+	position: relative;
+	top: 18.7cm;
+	text-align: center;
+	font-size: 50px;
+	color: #CD5C5C;
+	opacity: #BEBEBE;
+	opacity: 0.7;
+	width: 30cm;
+	margin: auto;
+	border-radius: 15px;
+	background-color: #FDF5E6
+
+}
+h2:hover
+{
+	opacity: 1;
+}
+.inttitle
+{
+	position: relative;
+	top: 20.1cm;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(244, 166, 98,0.8);
+	width: 5cm;
+	margin: auto;
+	font-weight: bold;
+	opacity: 0.8;
+	border-radius: 20px;
+	border-style: dotted;
+	border-color: #CD853F;
+}
+.inttitle:hover
+{
+	color: white;
+	border-style: solid;
+}
+.smile
+{
+	width: 3.1cm;
+	height: 3.1cm;
+	position: relative;
+	top: 21.6cm;
+	margin-left: 22%;
+}
+.about
+{
+	width: 18.6cm;
+	position: relative;
+	top: 18.85cm;
+	margin-left: 30%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.study
+{
+	width: 18.6cm;
+	position: relative;
+	top: 21cm;
+	margin-left: 23%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.book
+{
+	width: 3.1cm;
+	height: 3.1cm;
+	position: relative;
+	top: 17.8cm;
+	margin-left: 70%;
+}
+.interest
+{
+	width: 18.6cm;
+	position: relative;
+	top: 20cm;
+	margin-left: 30%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.mic
+{
+	width: 3.1cm;
+	height: 3.1cm;
+	position: relative;
+	top: 16.8cm;
+	margin-left: 22%
+}
+.clubtitle
+{
+	position: relative;
+	top: 23.7cm;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(244, 166, 98,0.8);
+	width: 5cm;
+	margin: auto;
+	font-weight: bold;
+	opacity: 0.8;
+	border-radius: 20px;
+	border-style: dotted;
+	border-color: #CD853F;
+	color: #880000;
+}
+.clubtitle:hover
+{
+	color: white;
+	border-style: solid;
+}
+.instrument
+{
+	position: relative;
+	top: 19cm;
+	font-weight: bold;
+	font-size: 40px;
+	opacity: 0.7;
+	text-align: center;
+	margin: auto;
+	width: 10cm;
+}
+.inlineee
+{
+	display: inline;
+}
+.flute
+{
+	position: relative;
+	top: 19.5cm;
+	margin-left: 23%;
+}
+.piano
+{
+	position: relative;
+	top: 19.5cm;
+	margin-left: 11%;
+}
+.ukulele
+{
+	position: relative;
+	top: 19.5cm;
+	margin-left: 11%
+}
+.dance
+{
+	position: relative;
+	top: 21cm;
+	font-weight: bold;
+	font-size: 40px;
+	opacity: 0.7;
+	text-align: center;
+	margin: auto;
+	width: 8.8cm;
+}
+.folk
+{
+	position: relative;
+	top: 21.5cm;
+	margin-left: 23%;
+}
+.ballet
+{
+	position: relative;
+	top: 21.5cm;
+	margin-left: 11%;
+}
+.street
+{
+	position: relative;
+	top: 21.5cm;
+	margin-left: 11%
+}
+.chorus
+{
+	position: relative;
+	top: 26cm;
+	margin-left: 21%;
+	width: 10cm;
+	height: 7.5cm;
+}
+.abchorus
+{
+	width: 12.5cm;
+	position: relative;
+	top: 18.85cm;
+	margin-left: 49%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.mf1
+{
+	position: relative;
+	top: 22cm;
+	margin-left: 53%;
+	width: 10cm;
+	height: 7.5cm;
+}
+.abmf
+{
+	width: 12.5cm;
+	position: relative;
+	top: 14.85cm;
+	margin-left: 18%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.mfmf
+{
+	position: relative;
+	top: 17cm;
+	font-weight: bold;
+	font-size: 40px;
+	opacity: 0.7;
+	text-align: center;
+	margin: auto;
+}
+.mf2
+{
+	position: relative;
+	top: 18.5cm;
+	margin-left: 15%;
+	width: 8cm;
+	height: 6cm;
+}
+.mf3
+{
+	position: relative;
+	top: 18.5cm;
+	margin-left: 5%;
+	width: 8cm;
+	height: 6cm;
+}
+.mf4
+{
+	position: relative;
+	top: 18.5cm;
+	margin-left: 5%;
+	width: 8cm;
+	height: 6cm;
+}
+.karaoke
+{
+	position: relative;
+	top: 21cm;
+	margin-left: 21%;
+	width: 10cm;
+	height: 7.5cm;
+}
+.abkk
+{
+	width: 12.5cm;
+	position: relative;
+	top: 13.85cm;
+	margin-left: 49%;
+	font-size: 28px;
+	padding-bottom: 0.5cm;
+	border-bottom-color: #BEBEBE;
+	border-bottom-style: double;
+	text-align: center;
+}
+.goaltitle
+{
+	position: relative;
+	top: 17cm;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(244, 166, 98,0.8);
+	width: 5cm;
+	margin: auto;
+	font-weight: bold;
+	opacity: 0.8;
+	border-radius: 20px;
+	border-style: dotted;
+	border-color: #CD853F;
+	color: #880000;
+}
+.goaltitle:hover
+{
+	color: white;
+	border-style: solid;
+}
+.english
+{
+	width: 20cm;
+	position: relative;
+	top: 19cm;
+	margin: auto;
+	font-size: 25px;
+	padding: 1cm;
+	border-color: #BEBEBE;
+	border-style: double;
+	border-radius: 40px;
+	color: rgba(191, 191, 191,0.5);
+	background-image: url("../images/english.png");
+	background-size: 22cm;
+}
+.english:hover
+{
+	color: #880000;
+	background-image: url("../images/bg.png");
+}
+.program
+{
+	width: 20cm;
+	position: relative;
+	top: 21cm;
+	margin: auto;
+	font-size: 25px;
+	padding: 1cm;
+	border-color: #BEBEBE;
+	border-style: double;
+	border-radius: 40px;
+	color: rgba(191, 191, 191,0.5);
+	background-image: url("../images/program.png");
+	background-size: 22cm;
+}
+.program:hover
+{
+	color: #880000;
+	background-image: url("../images/bg.png");
+}
+.life
+{
+	width: 20cm;
+	position: relative;
+	top: 23cm;
+	margin: auto;
+	font-size: 25px;
+	padding: 1cm;
+	border-color: #BEBEBE;
+	border-style: double;
+	border-radius: 40px;
+	color: rgba(191, 191, 191,0.5);
+	background-image: url("../images/life.png");
+	background-size: 22cm;
+}
+.life:hover
+{
+	color: #880000;
+	background-image: url("../images/bg.png");
+}
+.lifetitle
+{
+	position: relative;
+	top: 25.5cm;
+	text-align: center;
+	font-size: 30px;
+	background-color: rgba(244, 166, 98,0.8);
+	width: 5cm;
+	margin: auto;
+	font-weight: bold;
+	opacity: 0.8;
+	border-radius: 20px;
+	border-style: dotted;
+	border-color: #CD853F;
+	color: #880000;
+}
+.lifetitle:hover
+{
+	color: white;
+	border-style: solid;
+}
+.pic
+{
+	position: relative;
+}
+.pic img
+{
+	border-color: #BEBEBE;
+	border-style: double;
+	border-radius: 20px;
+ 	position:absolute;
+  	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+}
+.pic img:last-child:hover
+{
+	opacity: 0;
+}
+.cyim
+{
+	position: relative;
+	width: 7cm;
+	top: 27cm;
+	margin-left: 22.05%;
+}
+.dorm408
+{
+	position: relative;
+	width: 7cm;
+	top: 41.15cm;
+	margin-left: 22.05%;
+}
+.babe
+{
+	position: relative;
+	width: 6cm;
+	top: 32.7cm;
+	margin-left: 22.05%;
+}
+.doggy
+{
+	position: relative;
+	width: 7cm;
+	top: 27cm;
+	margin-left: 41%;
+}
+.family
+{
+	position: relative;
+	width: 7cm;
+	top: 41.15cm;
+	margin-left: 41%;
+}
+.lrh
+{
+	position: relative;
+	width: 6cm;
+	top: 32.7cm;
+	margin-left: 62.5%;
+}
+.dorm
+{
+	position: relative;
+	width: 7cm;
+	top: 27cm;
+	margin-left: 60%;
+}
+.fourflowers
+{
+	position: relative;
+	width: 7cm;
+	top: 41.15cm;
+	margin-left: 60%;
+}
+.heart
+{
+	position: relative;
+	width: 10.5cm;
+	top: 33.7cm;
+	display: block;
+	margin: auto;
+}
+.abme
+{
+	width: 14cm;
+	position: fixed;
+	right: -12.2cm;
+	top: 60.7%;
+}
+.abme:hover
+{
+	opacity: 0;
+}
+.abme2
+{
+	opacity: 0;
+	width: 14cm;
+	position: fixed;
+	right: -12.2cm;
+	top: 60.7%;
+}
+.abme2:hover
+{
+	opacity: 1;
+	right: -4cm;
+}
+footer
+{
+	background-color: rgba(255, 227, 194,0.8);
+	position: relative;
+	top: 41cm;
+	text-align: center;
+	font-size: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 0.25cm; 
+	padding-bottom: 0.25cm; 
+}
