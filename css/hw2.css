@@ -46,6 +46,7 @@ a.link:hover
 	display: block;
 	margin: auto;
 	width: 4cm;
+	border-radius: 18px;
 }
 .dog
 {
