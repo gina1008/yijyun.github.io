@@ -36,10 +36,18 @@ a
 {
 	text-decoration:none;
 	color: #880000;
+
 }
 a.link:hover
 {
-	text-decoration: underline;
+	font-size: 40px;
+	transition-duration: .5s;
+	transition-timing-function: linear;
+}
+a.school:hover
+{
+	background-color: rgba(226, 197, 197,0.7);
+	border-radius: 8px;
 }
 .gina
 {
@@ -129,8 +137,9 @@ h2
 	width: 30cm;
 	margin: auto;
 	border-radius: 15px;
-	background-color: #FDF5E6
-
+	background-color: #FDF5E6;
+	transition-duration: .4s;
+	transition-timing-function: linear;
 }
 h2:hover
 {
@@ -153,8 +162,12 @@ h2:hover
 }
 .inttitle:hover
 {
+	width: 5.5cm;
+	font-size: 35px;
 	color: white;
 	border-style: solid;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 .smile
 {
@@ -234,8 +247,12 @@ h2:hover
 }
 .clubtitle:hover
 {
+	width: 5.5cm;
+	font-size: 35px;
 	color: white;
 	border-style: solid;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 .instrument
 {
@@ -284,19 +301,19 @@ h2:hover
 .folk
 {
 	position: relative;
-	top: 21.5cm;
+	top: 21.75cm;
 	margin-left: 23%;
 }
 .ballet
 {
 	position: relative;
-	top: 21.5cm;
+	top: 21.75cm;
 	margin-left: 11%;
 }
 .street
 {
 	position: relative;
-	top: 21.5cm;
+	top: 21.75cm;
 	margin-left: 11%
 }
 .chorus
@@ -344,7 +361,7 @@ h2:hover
 	position: relative;
 	top: 17cm;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 38px;
 	opacity: 0.7;
 	text-align: center;
 	margin: auto;
@@ -411,8 +428,12 @@ h2:hover
 }
 .goaltitle:hover
 {
+	width: 5.5cm;
+	font-size: 35px;
 	color: white;
 	border-style: solid;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 .english
 {
@@ -428,6 +449,8 @@ h2:hover
 	color: rgba(191, 191, 191,0.5);
 	background-image: url("../images/english.png");
 	background-size: 22cm;
+	transition-duration: .5s;
+	transition-timing-function: linear;
 }
 .english:hover
 {
@@ -448,6 +471,8 @@ h2:hover
 	color: rgba(191, 191, 191,0.5);
 	background-image: url("../images/program.png");
 	background-size: 22cm;
+	transition-duration: .5s;
+	transition-timing-function: linear;
 }
 .program:hover
 {
@@ -468,6 +493,8 @@ h2:hover
 	color: rgba(191, 191, 191,0.5);
 	background-image: url("../images/life.png");
 	background-size: 22cm;
+	transition-duration: .5s;
+	transition-timing-function: linear;
 }
 .life:hover
 {
@@ -492,8 +519,12 @@ h2:hover
 }
 .lifetitle:hover
 {
+	width: 5.5cm;
+	font-size: 35px;
 	color: white;
 	border-style: solid;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
 }
 .pic
 {
@@ -583,11 +614,73 @@ h2:hover
 	width: 14cm;
 	position: fixed;
 	right: -12.2cm;
-	top: 60.7%;
+    animation:TestMove2 1s infinite alternate;
+    -moz-animation:TestMove2 1s infinite alternate;
+    -webkit-animation:TestMove2 1s infinite alternate;
 }
-.abme:hover
+@keyframes TestMove2
 {
-	opacity: 0;
+    from {top:57%;}
+    to {top:60.7%;}
+}
+@-moz-keyframes TestMove2
+{
+    from {top:57%;}
+    to {top:60.7%;}
+}
+@-webkit-keyframes TestMove2
+{
+    from {top:57%;}
+    to {top:60.7%;}
+}
+.ig
+{
+	position: fixed;
+	left: 0.54cm;
+	width: 2cm;
+	animation:TestMove4 1s infinite alternate;
+    -moz-animation:TestMove4 1s infinite alternate;
+    -webkit-animation:TestMove4 1s infinite alternate;
+}
+@keyframes TestMove4
+{
+    from {top:66.3%;}
+    to {top:70%;}
+}
+@-moz-keyframes TestMove4
+{
+    from {top:66.3%;}
+    to {top:70%;}
+}
+@-webkit-keyframes TestMove4
+{
+    from {top:66.3%;}
+    to {top:70%;}
+}
+.fb
+{
+	position: fixed;
+	left: 0.5cm;
+	top: 82%;
+	width: 2.1cm;
+	animation:TestMove5 1s infinite alternate;
+    -moz-animation:TestMove5 1s infinite alternate;
+    -webkit-animation:TestMove5 1s infinite alternate;
+}
+@keyframes TestMove5
+{
+    from {top:78.3%;}
+    to {top:82%;}
+}
+@-moz-keyframes TestMove5
+{
+    from {top:78.3%;}
+    to {top:82%;}
+}
+@-webkit-keyframes TestMove5
+{
+    from {top:78.3%;}
+    to {top:82%;}
 }
 .abme2
 {
@@ -595,12 +688,33 @@ h2:hover
 	width: 14cm;
 	position: fixed;
 	right: -12.2cm;
-	top: 60.7%;
+	animation:TestMove3 1s infinite alternate;
+    -moz-animation:TestMove3 1s infinite alternate;
+    -webkit-animation:TestMove3 1s infinite alternate;
+}
+@keyframes TestMove3
+{
+    from {top:57%;}
+    to {top:60.7%;}
+}
+@-moz-keyframes TestMove3
+{
+    from {top:57%;}
+    to {top:60.7%;}
+}
+@-webkit-keyframes TestMove3
+{
+    from {top:57%;}
+    to {top:60.7%;}
 }
 .abme2:hover
 {
 	opacity: 1;
 	right: -4cm;
+	-moz-transition: right .7s ease-out;
+    -webkit-transition: right .7s ease-out;
+    -o-transition: right .7s ease-out;
+    -ms-transition: right .7s ease-out;
 }
 footer
 {
