@@ -71,6 +71,7 @@ a.link:hover
 	width: 800px;
 	display: block;
 	margin: auto;
+	border-radius: 18px;
 }
 .me:hover
 {
